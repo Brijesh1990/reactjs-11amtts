@@ -1,0 +1,7 @@
+what is type casting in javascript ?
+  types casting meanse we are change any data type for any times this is called type casting.
+
+  There are two types of type casting 
+
+  a) parseInt 
+  b) parseFloat
