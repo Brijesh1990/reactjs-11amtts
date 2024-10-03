@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+    body 
+    {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: antiquewhite;
+    }
+    .ap 
+    {
+        width: 40%;
+        height: auto;
+        margin: auto;
+        padding: 25px;
+        background-color: white;
+    }
+    </style>
+
+<script>
+function test()
+{
+
+var grade=document.getElementById("grade").value;
+switch(grade)
+{
+    case 'A':
+        document.getElementById("result").innerHTML="<h2>You are a Topper students &#9786</h2>";
+        break;
+        
+    case 'B':
+    document.getElementById("result").innerHTML="<h2>You are a average students &#9786</h2>";
+        break;
+
+        
+    case 'C':
+        
+    document.getElementById("result").innerHTML="<h2>You are a failed students &#9785</h2>";
+        break;
+        
+    default:
+    document.getElementById("result").innerHTML="<h2>Sorry your grade is not found anywhere contact with admin</h2>";
+        break;
+}
+
+}
+    </script>
+</head>
+<body>
+
+    
+    <div class="ap">
+        <h3>Enter your grade in A, B , C in Formate</h3>
+        <form>
+            <input type="text" id="grade" placeholder="Enter your grade here *" required />
+            <br><br>
+            <button type="button" onclick="test()">Click to check</button>
+        </form>
+      
+       <p id="result"></p> 
+    
+    </div>
+    
+</body>
+</html>
