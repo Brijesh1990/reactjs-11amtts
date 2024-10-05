@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function display()
+        {
+         var p=document.getElementById("pname").value;
+         var n=document.getElementById("yname").value;
+         var r=document.getElementById("rname").value;
+         var result=p*n*r/100;
+         document.getElementById("demo").innerHTML="The simple interest paid by you is :"+result;
+        }
+    </script>
+</head>
+<body>
+
+    <p id="demo"></p>
+    <form>
+        Enter principle ammount :<input type="text" id="pname" placeholder="Principle ammount" />
+        <br><br>
+        Enter Number of years :<input type="text" id="yname" placeholder="Number of years" />
+        <br><br>
+        Enter  ROI :<input type="text" id="rname" placeholder="Principle ammount" />
+        <br><br>
+        <button type="button" onclick="display()">Check here</button>
+    </form>
+    
+</body>
+</html>
