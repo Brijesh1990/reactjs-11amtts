@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Page Title</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<script src='main.js'></script>
+<style>
+#demo
+{
+width: 50%;
+height: auto;
+margin: auto;
+padding: 10px;
+}
+
+button,input 
+{
+width: 280px;
+height: auto;
+margin: auto;
+padding: 8px;
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 25%;
+}
+</style>
+
+<script>
+function Display()
+{
+var nm=document.getElementById("name").value;
+document.getElementById("demo").innerHTML="My name is :"+nm;
+}
+</script>
+</head>
+<body>
+<p id="demo"></p>
+<form>
+<input type="text" id="name" placeholder="Enter your name *" />
+<br><br>
+<button type="button" onclick="Display()">Click to show your name >></button>
+
+</form>
+</body>
+</html>

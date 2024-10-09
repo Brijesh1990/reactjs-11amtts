@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function display()
+        {
+            var nm=prompt('Enter your name :');
+            document.getElementById("demo").innerHTML="My name is :"+nm;
+        }
+    </script>
+</head>
+<body>
+    <p id="demo"></p>
+    <button type="button" onkeydown="display()">Key Press on Button</button>
+    
+</body>
+</html>

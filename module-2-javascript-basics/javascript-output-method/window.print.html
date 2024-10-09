@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        #demo
+        {
+            width: 60%;
+            height: auto;
+            margin: auto;
+            padding: 25px;
+            text-align: justify !important;
+
+        } 
+        #btn 
+        {
+            width: 250px;
+            height: auto;
+            margin: auto;
+            padding: 8px;
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            margin-left: 20%;
+            border: none;
+        }
+    </style>
+    <script>
+        function Display()
+        {
+            document.getElementById("btn").style="display:none";
+            window.print();
+        }
+    </script>
+</head>
+<body>
+
+    <div id="demo">
+    <h1>This is an examples of window Print in Javascript</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tenetur nemo rem corrupti eaque ullam, perspiciatis commodi voluptatibus illo natus ea pariatur nostrum a reiciendis, animi minus tempore nam harum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tenetur nemo rem corrupti eaque ullam, perspiciatis commodi voluptatibus illo natus ea pariatur nostrum a reiciendis, animi minus tempore nam harum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tenetur nemo rem corrupti eaque ullam, perspiciatis commodi voluptatibus illo natus ea pariatur nostrum a reiciendis, animi minus tempore nam harum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tenetur nemo rem corrupti eaque ullam, perspiciatis commodi voluptatibus illo natus ea pariatur nostrum a reiciendis, animi minus tempore nam harum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tenetur nemo rem corrupti eaque ullam, perspiciatis commodi voluptatibus illo natus ea pariatur nostrum a reiciendis, animi minus tempore nam harum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tenetur nemo rem corrupti eaque ullam, perspiciatis commodi voluptatibus illo natus ea pariatur nostrum a reiciendis, animi minus tempore nam harum!</p>
+    </div>
+
+    <button id="btn" onclick="Display()">Print Me!</button>
+
+
+</body>
+</html>

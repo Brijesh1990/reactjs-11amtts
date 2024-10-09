@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        #cart 
+        {
+            width: 80%;
+            height: auto;
+            margin: auto;
+            padding: 15px;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="cart">
+        <h1>View Cart(1)</h1>
+        <hr />
+        <table align="center" width="100%">
+            <tr>
+                <th>#id</th>
+                <th>Photo</th>
+                <th>Pname</th>
+                <th>Qty</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+            <tr align="center">
+                <td>1001</td>
+                <td><img src="https://5.imimg.com/data5/SELLER/Default/2023/1/KN/AW/TL/41709145/samsung-guru-music-2-gold-mobile-phone.jpg" style="width:80px; height: 100px;"></td>
+                <td>Samsung Guru</td>
+                <td><input type="number" id="qty" min="1" max="10" placeholder="qty" value="1" onchange="carttotal()"></td>
+                <td>Rs.<input type="text" id="price" value="1500" readonly style="border: none; width: 50px; margin-left: 3%;"></td>
+                <td><a href="#">Delete</a></td>
+            </tr>
+
+            <tr>
+                <td align="right" colspan="6"><h2 style="width:40% ; height: auto; background-color: black; color: white; padding:15px">Subtotal of Products is Rs .<label id="tot">1500</label></h2></td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function carttotal()
+        {
+            var price=document.getElementById("price").value;
+            var qty=document.getElementById("qty").value;
+            var subtotal=price*qty;
+            document.getElementById("tot").innerHTML=+subtotal;
+        }
+    </script>
+
+
+</body>
+</html>

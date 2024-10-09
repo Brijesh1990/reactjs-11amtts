@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        #demo
+        {
+            width: 50%;
+            height: auto;
+            margin: auto;
+            padding: 10px;
+        }
+        button 
+        {
+            width: 280px;
+            height: auto;
+            margin: auto;
+            padding: 8px;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            margin-left: 25%;
+        }
+    </style>
+
+    <script>
+        function Display()
+        {
+            document.getElementById("demo").style="transition:2s ease all; font-size:25px;color:blue";
+        }
+    </script>
+</head>
+<body>
+    <p id="demo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo molestias nisi quae. Necessitatibus, quos, dolor incidunt dolorum quas quo assumenda fugit pariatur consectetur minima ipsum doloribus, corrupti sapiente amet. Quis.</p>
+    <button type="button" onclick="Display()">click to provide effects</button>
+</body>
+</html>
