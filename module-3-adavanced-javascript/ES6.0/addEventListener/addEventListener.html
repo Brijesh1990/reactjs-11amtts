@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   
+    <!-- addEventListener : This is also used in ES6.0 just like call a events of javascript
+                            event listener is used as callback function 
+                            eventListener is direct call on button without calling events
+    -->
+</head>
+<body>
+    <p id="demo"></p>
+    <button type="button" id="btn">Additions</button>
+    <button type="button" id="btn1">Substractions</button>
+    <button type="button" id="btn2">Multiplications</button>
+    <button type="button" id="btn3">Divisions</button>
+
+    <script>
+        var result=document.getElementById("btn");
+        var result1=document.getElementById("btn1");
+        var result2=document.getElementById("btn2");
+        result.addEventListener("click",add);
+        result1.addEventListener("click",subs);
+        result2.addEventListener("click",mul);
+        // function add()
+        // {
+        //     var a=parseInt(prompt('Enter a Numbers :'));
+        //     var b=parseInt(prompt('Enter b Numbers :'));
+        //     var c=a+b;
+        //     console.log(c);
+        // }
+
+
+        function add()
+        {
+            var a=parseInt(prompt('Enter a Numbers :'));
+            var b=parseInt(prompt('Enter b Numbers :'));
+            var c=a+b;
+            //console.log(c);
+            document.getElementById("demo").innerHTML="The additions of numbers is :"+c;
+        }
+
+        function subs()
+        {
+            var a=parseInt(prompt('Enter a Numbers :'));
+            var b=parseInt(prompt('Enter b Numbers :'));
+            var c=a-b;
+            //console.log(c);
+            document.getElementById("demo").innerHTML="The substractions of numbers is :"+c;
+        }
+        function mul()
+        {
+            var a=parseInt(prompt('Enter a Numbers :'));
+            var b=parseInt(prompt('Enter b Numbers :'));
+            var c=a*b;
+            //console.log(c);
+            document.getElementById("demo").innerHTML="The Multiplications of numbers is :"+c;
+        }
+        
+        
+    </script>
+</body>
+</html>
