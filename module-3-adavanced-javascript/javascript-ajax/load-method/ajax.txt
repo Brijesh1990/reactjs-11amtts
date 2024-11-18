@@ -1,0 +1,5 @@
+ajax : ajax stands for asynchrounous javascript and xml 
+       ajax : asynchrounous 
+       javascript: load events
+       xml : s-tensible markup language load dynamic content 
+       Note : load content from server on web broswer without page refresh there we used ajax 
