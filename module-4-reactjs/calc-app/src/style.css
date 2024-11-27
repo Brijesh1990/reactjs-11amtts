@@ -1,0 +1,19 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: lightgray;
+}
+.app 
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    font-size: 20px;
+    box-shadow: 4px 4px 5px 8px;
+    padding: 25px;
+    margin-top: 5%;
+    animation: 2s ease alternate backInLeft;
+}

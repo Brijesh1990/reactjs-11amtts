@@ -1,0 +1,21 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+.content 
+{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    box-shadow: 25px 25px 5px;
+    padding: 25px;
+    margin-top: 10%;
+}
+.anm 
+{
+    animation: flash infinite 2s;
+}
