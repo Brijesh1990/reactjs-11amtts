@@ -1,0 +1,18 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
+    color: white;
+}
+.app 
+{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    color: black !important;
+    padding: 25px;
+    text-align: center;
+    margin-top: 10%;
+}
