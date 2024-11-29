@@ -1,7 +1,5 @@
-*.css
-*.images
-*.fonts
-
-#css
-#images
-#fonts
+*.
+css
+fonts
+images
+*.
