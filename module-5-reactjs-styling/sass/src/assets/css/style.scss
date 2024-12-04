@@ -1,0 +1,54 @@
+// text color 
+/* what is sass
+    sass is a pre-preprocessor of css
+    sass extensions is .scss 
+    sass is executables on server side 
+    sass is install in react as a libraries 
+    npm i sass --save
+
+   
+
+*/
+$text-success:green;
+$text-danger:red;
+$text-info:skyblue;
+$text-primary:blue;
+$text-white:white;
+// background-color
+$bg-success:green;
+$bg-danger:coral;
+$bg-info:skyblue;
+$bg-primary:blue;
+$bg-dark:orange;
+
+// width
+$max-width:100%;
+$min-width:80%;
+$height:auto;
+// margin 
+$margin:auto;
+$padding:20px;
+$margin-top:2%;
+
+// call sass 
+.app1 
+{
+width: $min-width;
+height: $height;
+margin: $margin;
+padding: $padding;
+background-color: $bg-dark !important;   
+margin-top: $margin-top; 
+color: $text-white;
+}
+
+.app2 
+{
+width: $min-width;
+height: $height;
+margin: $margin;
+padding: $padding;
+background-color: $bg-danger !important;   
+margin-top: $margin-top; 
+color: $text-white;
+}
