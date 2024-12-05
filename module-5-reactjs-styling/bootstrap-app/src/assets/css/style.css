@@ -1,0 +1,53 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.header-links
+{
+width: auto;
+height: auto;    
+}
+.header-links li 
+{
+ padding: 1px 5px;    
+ list-style-type: none;
+ text-decoration: none;  
+}
+.header-links a 
+{
+ list-style-type: none;
+ text-decoration: none;  
+ color: black; 
+}
+.dropdown:hover .dropdown-menu 
+{
+    display: block;
+    background-color: black;
+    color: white !important;
+}
+.dropdown-menu a 
+{
+    color: white !important;
+}
+.brijesh-img 
+{
+width: 60px;
+height: 60px;    
+}
+.navbar-links li 
+{
+display: inline-block;
+padding: 1px 25px;    
+text-decoration: none;  
+list-style-type: none;
+}
+.navbar-links a 
+{
+text-decoration: none;  
+list-style-type: none;
+color: white;
+font-size: 20px;  
+}
