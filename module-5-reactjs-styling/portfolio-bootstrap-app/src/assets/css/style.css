@@ -1,0 +1,44 @@
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+background-color: #3369e7;    
+}
+#portfolio-header
+{
+width: 100%;
+height: auto;    
+}
+.header-links li
+{
+display: inline-block;
+padding: 2px 15px;
+text-decoration: none;
+list-style-type: none;
+}
+.header-links a 
+{
+color: white;
+font-size: 20px;
+text-decoration: none;
+}
+.logo 
+{
+animation: fadeIn 3s infinite;    
+}
+#portfolio-slider
+{
+width: 80%;
+height: 400px;
+margin: auto;    
+background-image:linear-gradient(to right, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.58)),url('../images/banner.jpg');
+background-size: cover;
+background-position: center;    
+}
+.portfolio-content
+{
+width: 80%;
+height: auto;    
+}
