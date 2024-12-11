@@ -192,13 +192,69 @@ aria-valuemax={100}>React Js(95%)</div>
 <img src={person4} alt='person1' className='img-fluid w-100' />
 </div>
 </div>
+</div>
+</div>
+{/* education & experiance */}
+<div className='w-100 bg-light p-5'>
+<h1>Experience and Educations</h1>
+<hr align="left" className='border border-1 w-25 border-dark' />
+<p className='text-center'><button className='btn btn-md btn-primary text-white'><span className='bi bi-chat'></span>Experience</button>
+<button className='btn btn-md btn-dark text-white ms-2'><span className='bi bi-earbuds'></span>Education</button>
+</p>
+<div className='row g-1'>
+<div className='col-md-6'>
+<h3>Master in Design</h3>
+<hr align="left" className='border border-1 w-25 border-dark' />  
+<p>Transform your design career in just 12 months with an industry-ready and AI-driven Master of Design degree. Learn how to build world-class products from design leaders at Apple, Pinterest, Cisco, and PayPal. Enrol now!</p>
+
+<h3>Informations Technology</h3>
+<hr align="left" className='border border-1 w-25 border-dark' />  
+<p>Transform your design career in just 12 months with an industry-ready and AI-driven Master of Design degree. Learn how to build world-class products from design leaders at Apple, Pinterest, Cisco, and PayPal. Enrol now!</p>
+</div>
+<div className='col-md-6'>
+<h3>Bachlor Degree</h3>
+<hr align="left" className='border border-1 w-25 border-dark' />  
+<p>Transform your design career in just 12 months with an industry-ready and AI-driven Master of Design degree. Learn how to build world-class products from design leaders at Apple, Pinterest, Cisco, and PayPal. Enrol now!</p>
+
+<h3>Diploma in Informations</h3>
+<hr align="left" className='border border-1 w-25 border-dark' />  
+<p>Transform your design career in just 12 months with an industry-ready and AI-driven Master of Design degree. Learn how to build world-class products from design leaders at Apple, Pinterest, Cisco, and PayPal. Enrol now!</p>
+</div>
+</div>
+</div>
+</div>
 
 
-
-
+<div className='container p-5'>
+<h3 className='text-white'>Get In Touch</h3>
+<hr align="left" className='border border-1 w-25 border-white' />      
+<div className='row'>
+<div className="col-md-6">
+    <form>
+        <div className='form-group mt-3'>
+            <input type='text' placeholder='Name *' className='form-control bg-secondary' />
+        </div>
+        
+        <div className='form-group mt-3'>
+            <input type='text' placeholder='Email *' className='form-control bg-secondary' />
+        </div>
+    
+        <div className='form-group mt-3'>
+            <input type='submit' value="Send" className='btn btn-md bg-white text-dark' />
+        </div>
+    </form>
+</div>
+<div className="col-md-6">
+    <div className='form-group mt-3'>
+        <textarea placeholder='write comments here *' className='form-control bg-secondary' cols="8" rows="3"></textarea>
+    </div>
 
 </div>
 </div>
+
+<hr className="border border-1 border-white" />
+
+<p className="text-white text-center">Copyright @ 2020-2024 all right reserved</p>
 </div>
 
 </>
