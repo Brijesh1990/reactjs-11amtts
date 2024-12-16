@@ -4,9 +4,11 @@ import { createRoot } from 'react-dom/client'
 import Animations from './components/Animations'
 import './index.css'
 import './style.css'
+import Layout from './Layout'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <Paragraph /> */}
-    <Animations />
+    {/* <Animations /> */}
+    <Layout />
   </StrictMode>,
 )
