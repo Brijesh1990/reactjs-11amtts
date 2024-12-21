@@ -1,0 +1,71 @@
+:root 
+{
+    --bg-pink:#ff4e5e;
+    --bg-voilet:#a671fd;
+    --bg-black:#181617;
+    --bg-white:white;
+    --bg-skyblue:#d1e6eb;
+    --text-pink:#ff4e5e;
+    --text-voilet:#a671fd;
+    --text-black:#181617;
+    --text-white:white;
+    
+}
+* 
+{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body 
+{
+overflow-x: hidden;
+background-color: var(--bg-skyblue); 
+}
+.task-dashboard 
+{
+width: 100%;
+height: auto;
+margin-top: 1%;    
+}
+.task-header
+{
+max-width: 100%;
+min-width: 100%;
+height: auto;
+background-color: var(--bg-pink);    
+}
+.task-header h1 
+{
+font-size: 68px !important;
+line-height: 0.9;    
+}
+.task-content  img 
+{
+   width:300px;
+   margin-left: 18%; 
+}
+.nav-links li 
+{
+display: inline-block;
+padding: 0px 35px;    
+}
+.task-dashboard
+{
+width: 100%;
+height: auto;
+background-color: #a671fd !important;  
+}
+
+.navigation
+{
+border-radius: 0px 0px 85px 85px !important;    
+}
+.new-task
+{
+    background-color: #a671fd;
+}
+.add-task-anim
+{
+animation: infinite fadeIn 1.5s;    
+}
