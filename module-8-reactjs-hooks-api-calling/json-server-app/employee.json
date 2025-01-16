@@ -1,0 +1,16 @@
+
+{
+    "employee":[
+    
+         {
+          "id":1001,
+          "name":"brijesh",
+          "age":25,
+          "salary":89500,
+          "department":"IT"
+         }
+    
+    ]
+
+
+   }

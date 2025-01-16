@@ -1,0 +1,22 @@
+.app 
+{
+width: 80%;
+height: auto;
+margin: auto;
+font-size: 45px;
+color: red;
+margin-top: 8%;  
+}
+.spinner-border
+{
+font-size: 35px !important;
+letter-spacing: 3px;  
+height: auto;
+margin: auto;
+margin-left: 2% !important;
+margin-top: 8%;
+position: relative;
+left: 5%;
+width: 70px !important;
+height: 70px !important;
+}

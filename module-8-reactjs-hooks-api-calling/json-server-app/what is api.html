@@ -1,0 +1,72 @@
+<!-- 
+what is api ?
+  api stands for application programming interface
+  api is used to get data in json formate
+  api is call or its data call in json formate
+  api is called via http request to its server
+  api create its data in json formate 
+  examples : http://localhost:8000/employee
+             http://localhost:8000/gallery
+             http://localhost:8000/contacts
+             http://localhost:8000/products
+             http://localhost:8000/register
+what is json ?
+ json stands for javascript object notation i.e called json 
+ json used to call api data formate 
+ json create its own server in react js 
+ examples : json save with its extension .json
+ 
+      {
+       "employee":[
+       
+            {
+             "id":1001,
+             "name":"brijesh",
+             "age":25,
+             "salary":89500,
+             "department":"IT"
+            }
+       
+       ]
+  
+ 
+      }
+
+
+
+hw to create a json server in react js ...
+a)install react js app via vite
+b)install json-server dependency       
+  npm install json-server --save
+c)after install json-server open package.json and configured it
+   "scripts"
+   "json-server":"json-server --watch db.json --port 4000"
+
+d)create a db.json   
+     db.json 
+
+     
+{
+    "employee":[
+    
+         {
+          "id":1001,
+          "name":"brijesh",
+          "age":25,
+          "salary":89500,
+          "department":"IT"
+         }
+    
+    ]
+
+
+   }
+
+
+e) how to run json server 
+   npm run json-server
+
+   http://localhost:4000/employee
+   http://localhost:4000/products
+
+-->

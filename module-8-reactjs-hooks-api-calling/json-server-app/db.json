@@ -1,0 +1,46 @@
+
+{
+    "employee":[
+    
+         {
+          "id":1001,
+          "name":"brijesh",
+          "age":25,
+          "salary":89500,
+          "department":"IT"
+         },
+
+         {
+            "id":1002,
+            "name":"sushil",
+            "age":25,
+            "salary":19500,
+            "department":"IT"
+           },
+           {
+            "id":1003,
+            "name":"vishwa",
+            "age":25,
+            "salary":19500,
+            "department":"CSE"
+           }
+    
+    ],
+
+    "products":[
+
+      {
+        "id":1,
+        "name":"samsung galexy",
+        "category":"mobile",
+        "oldprice":"10500",
+        "newprice":"8500",
+        "qty":1,
+        "descriptions":"good for basic phone",
+        "photo":"https://m.media-amazon.com/images/I/71+0MKV37HL._AC_UF1000,1000_QL80_.jpg"
+      }
+
+    ]
+
+
+   }
