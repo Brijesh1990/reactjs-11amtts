@@ -1,0 +1,16 @@
+.app
+{
+ width: 60%;
+ height: auto;
+ margin: auto;
+ padding: 10px; 
+}
+.app button
+{
+width: auto;
+height: auto;
+background-color: black;
+color: white;
+border: 0;
+padding: 10px;
+}

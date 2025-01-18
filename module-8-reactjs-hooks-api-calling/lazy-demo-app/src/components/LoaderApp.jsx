@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from "react";
 import lazy from '../loader.gif'
 export default function LoaderApp() {
-  // initialised state via useState hook
-  // destructured of state
-  const [loader, setLoader] = useState(true);
-  // useEffects hook to load loader
-  useEffect(() => {
-   
-    setTimeout(()=>{
+// initialised state via useState hook
+// destructured of state
+const [loader, setLoader] = useState(true);
+// useEffects hook to load loader
+useEffect(() => {
 
-         setLoader(false)
+setTimeout(()=>{
 
-    },3500)
+setLoader(false)
 
-  },[loader]); //render data one times
+},3500)
+
+},[loader]); //render data one times
 
 //   return (
 //     // applied conditions
@@ -39,20 +39,20 @@ export default function LoaderApp() {
 //       <div className="app">
 //         <h1>We will comming Soon!</h1>
 //       </div>
-    
+
 //   );
 // }
 
 return (
-    // applied conditions
-    loader ? 
-      <>
-      <img src={lazy} alt="loader"  />
-      </>
-     : 
-      <div className="app">
-        <h1>We will comming Soon!</h1>
-      </div>
-    
-  );
+// applied conditions
+loader ? 
+<>
+<img src={lazy} alt="loader"  />
+</>
+: 
+<div className="app">
+<h1>We will comming Soon!</h1>
+</div>
+
+);
 }
