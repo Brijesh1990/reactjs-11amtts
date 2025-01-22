@@ -1,0 +1,70 @@
+{
+    "employee":[
+        {
+            "id":1,
+            
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb-gPDCNkht-fCa6mUZsc2kLCBjeuLfqmdJQ&s",
+            "name":"vishwa",
+            "age":24,
+            "salary":13500,
+            "department":"junior frontend developer"
+        },
+        {
+            "id":2,
+            
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb-gPDCNkht-fCa6mUZsc2kLCBjeuLfqmdJQ&s",
+            "name":"trupti",
+            "age":24,
+            "salary":14500,
+            "department":"junior frontend developer"
+        },
+
+        {
+            "id":3,
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb-gPDCNkht-fCa6mUZsc2kLCBjeuLfqmdJQ&s",
+            "name":"rinkal",
+            "age":25,
+            "salary":15500,
+            "department":"junior React js developer"
+        },
+
+        {
+            "id":4,
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb-gPDCNkht-fCa6mUZsc2kLCBjeuLfqmdJQ&s",
+            "name":"puneet",
+            "age":25,
+            "salary":15500,
+            "department":"junior React js developer"
+        },
+
+        {
+            "id":5,
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb-gPDCNkht-fCa6mUZsc2kLCBjeuLfqmdJQ&s",
+            "name":"kumar",
+            "age":25,
+            "salary":15500,
+            "department":"junior React js developer"
+        },
+        {
+            "id":6,
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb-gPDCNkht-fCa6mUZsc2kLCBjeuLfqmdJQ&s",
+            "name":"Tej",
+            "age":25,
+            "salary":15500,
+            "department":"junior React js developer"
+        },
+        {
+            "id":7,
+            
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb-gPDCNkht-fCa6mUZsc2kLCBjeuLfqmdJQ&s",
+            "name":"Rushi",
+            "age":25,
+            "salary":15500,
+            "department":"junior React js developer"
+        }
+        
+        
+        
+        
+    ]
+}
