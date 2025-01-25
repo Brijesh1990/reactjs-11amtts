@@ -1,0 +1,28 @@
+{
+  "employee": [
+    {
+      "id": "fe60",
+      "photo": "https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png",
+      "name": "brijesh",
+      "age": "35",
+      "salary": "89500",
+      "department": "IT"
+    },
+    {
+      "id": "2e80",
+      "photo": "https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png",
+      "name": "sushil",
+      "age": "25",
+      "salary": "15500",
+      "department": "CSE"
+    },
+    {
+      "id": "437c",
+      "photo": "https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png",
+      "name": "tej",
+      "age": "26",
+      "salary": "16500",
+      "department": "EC"
+    }
+  ]
+}
