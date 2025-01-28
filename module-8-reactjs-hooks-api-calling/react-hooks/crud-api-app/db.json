@@ -1,0 +1,102 @@
+{
+  "tasks": [
+    {
+      "id": "03d7",
+      "taskname": "react crud operations",
+      "addeddate": "2025-01-27",
+      "priority": "High Priority",
+      "reminder": "Every 2 weeks",
+      "descriptions": "crud api integrations"
+    },
+    {
+      "id": "790b",
+      "taskname": "logo design task",
+      "addeddate": "2025-01-27",
+      "priority": "Low Priority",
+      "reminder": "Every 1 weeks",
+      "descriptions": "Logo design"
+    },
+    {
+      "id": "5782",
+      "taskname": "Node js Rest api crud operations",
+      "addeddate": "2025-01-27",
+      "priority": "Normal Priority",
+      "reminder": "Every 2 weeks",
+      "descriptions": "Node js rest api Creations"
+    },
+    {
+      "id": "3e5d",
+      "taskname": "Create all UML diagrames for projects",
+      "addeddate": "2025-01-27",
+      "priority": "High Priority",
+      "reminder": "Every 1 weeks",
+      "descriptions": "Projects Analysis"
+    },
+    {
+      "id": "09ef",
+      "taskname": "agile methodology projects creation task",
+      "addeddate": "2025-01-27",
+      "priority": "High Priority",
+      "reminder": "Every 1 days",
+      "descriptions": "Agile methodology project development"
+    }
+  ],
+  "priority": [
+    {
+      "id": "1",
+      "name": "High Priority"
+    },
+    {
+      "id": "2",
+      "name": "Low Priority"
+    },
+    {
+      "id": "3",
+      "name": "Normal Priority"
+    }
+  ],
+  "set-reminder": [
+    {
+      "id": "1",
+      "reminder": "Every 2 weeks"
+    },
+    {
+      "id": "2",
+      "reminder": "Every 1 weeks"
+    },
+    {
+      "id": "3",
+      "reminder": "Every 2 days"
+    },
+    {
+      "id": "4",
+      "reminder": "Every 1 days"
+    }
+  ],
+  "task-descriptions": [
+    {
+      "id": "1",
+      "desc": "Logo design"
+    },
+    {
+      "id": "2",
+      "desc": "Agile methodology project development"
+    },
+    {
+      "id": "3",
+      "desc": "Projects Analysis"
+    },
+    {
+      "id": "4",
+      "desc": "React js Developments"
+    },
+    {
+      "id": "5",
+      "desc": "crud api integrations"
+    },
+    {
+      "id": "6",
+      "desc": "Node js rest api Creations"
+    }
+  ]
+}

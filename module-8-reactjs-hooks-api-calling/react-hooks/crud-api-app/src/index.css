@@ -1,0 +1,22 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: lightblue;
+}
+
+.nav ul li 
+{
+  display: inline-block;
+  padding: 0px 25px;
+  list-style-type: none;
+  text-decoration: none;
+}
+.nav a 
+{
+  color: white;
+  font-size: 20px;
+  list-style-type: none;
+  text-decoration: none;
+}
