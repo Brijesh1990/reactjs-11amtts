@@ -1,0 +1,24 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.navbar  
+{
+width: 100%;
+height: auto;
+margin-top: 5%;    
+}
+.navbar ul li 
+{
+display: inline-block;
+padding: 0px 25px;
+
+}
+.navbar  a 
+{
+ text-decoration: none;
+ list-style-type: none;
+ color: white;   
+}

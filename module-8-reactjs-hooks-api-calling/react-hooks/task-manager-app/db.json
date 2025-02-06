@@ -1,9 +1,83 @@
 {
   "tasks": [
     {
-      "id": "844e",
-      "taskname": "react task",
-      "taskdetail": "added"
+      "taskname": "wordpress custom theme",
+      "taskdetail": "good for wordpress",
+      "id": "ef82"
+    },
+    {
+      "id": "9093",
+      "taskname": "brijesh pandey",
+      "taskdetail": "fullstack developer"
     }
-  ]
+  ],
+  "add-employee": [],
+  "system-managements": [],
+  "contact-us": [
+    {
+      "id": "2313",
+      "name": "raj",
+      "email": "raj@gmail.com",
+      "phone": "9998656565",
+      "subject": "hi",
+      "comment": "hi"
+    },
+    {
+      "id": "c7aa",
+      "name": "ketan",
+      "email": "ketan@gmail.com",
+      "phone": "99255454",
+      "subject": "hi",
+      "comment": "hi"
+    },
+    {
+      "id": "8b8f",
+      "name": "disha",
+      "email": "disha@gmail.com",
+      "phone": "95454545454",
+      "subject": "hi",
+      "comment": "send me customer care number"
+    },
+    {
+      "id": "f47f",
+      "name": "sushil kumar",
+      "email": "sushil@gmail.com",
+      "phone": "9454545454",
+      "subject": "hi i am sushil",
+      "comment": "send me Rs 45000 rupees"
+    },
+    {
+      "id": "c8e4",
+      "name": "jay",
+      "email": "jay@gmail.com",
+      "phone": "9116565656",
+      "subject": "hi",
+      "comment": "hi i am jay"
+    },
+    {
+      "id": "b52c",
+      "name": "kumar",
+      "email": "kumar@gmail.com",
+      "phone": "9998003879",
+      "subject": "hi",
+      "comment": "hi"
+    },
+    {
+      "id": "4563",
+      "name": "kumar",
+      "email": "kumar@gmail.com",
+      "phone": "9998003879",
+      "subject": "hi",
+      "comment": "hi"
+    },
+    {
+      "id": "36f2",
+      "name": "brijesh",
+      "email": "bkpandey.pandey@gmail.com",
+      "phone": "9998003879",
+      "subject": "hi",
+      "comment": "hi"
+    }
+  ],
+  "feedback-us": []
 }

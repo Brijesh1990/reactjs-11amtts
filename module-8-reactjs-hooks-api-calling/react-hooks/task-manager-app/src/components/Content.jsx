@@ -45,8 +45,8 @@ export default function Content() {
     <div>
       <NavbarApp />
       {/* content */}
-      <Container className='w-50 mx-auto p-2 mt-1'>
-      <h1>Add New Task Here</h1>
+      <Container className='w-50  p-3 mt-5 bg-white top-0'>
+      <h1 className='fs-4'>Add New Task Here</h1>
       <hr />
       <form onSubmit={addTaskFormHandeler}>
       <div className="input-group mb-3">
@@ -68,12 +68,14 @@ export default function Content() {
       {/* task list display */}
       <h1 className='fs-3'>Totals Task count <span className='fs-5 badge badge-sm text-white bg-danger rounded-circle ms-4'>{data.length}</span></h1>
       <hr />
-      <table className='table table-responsive table-bordered'>
+      <table className='table table-striped table-responsive table-bordered' style={{fontSize:"12px !important",fontWeight:"100"}}>
        {data && data.map((row)=>{
         return(
             <>
             <tr>
-            <td><button type='button' onClick={()=>{navigate(`/delete-data/${row.id}`)}}><span className='bi bi-trash btn btn-sm rounded-circle p-2 btn-danger text-white border border-0'></span></button>  <b className='ms-5'>{row.taskname}</b></td>
+            <td><b className='ms-5'>{row.taskname}</b> <b className='ms-5'>{row.taskdetail}</b></td>
+
+            <td><button type='button' onClick={()=>{navigate(`/delete-data/${row.id}`)}}><span className='bi bi-trash btn btn-sm rounded-circle p-2 btn-danger text-white border border-0'></span></button> | <button type='button' onClick={()=>{navigate(`/edit-data/${row.id}`)}}><span className='bi bi-pencil btn btn-sm rounded-circle p-2 btn-primary text-white border border-0'></span></button> </td>
            </tr>
             </>
         ) 
