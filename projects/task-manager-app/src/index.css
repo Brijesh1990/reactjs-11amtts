@@ -1,0 +1,23 @@
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+background-color: white;  
+/* background: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRhc2slMjBtYW5hZ2VtZW50fGVufDB8fDB8fHww') no-repeat;
+background-position: center;
+background-size: cover; */
+}
+.navbar ul li 
+{
+ display: inline-block;
+ padding: 0px 25px;
+ text-decoration: none;
+ list-style-type: none; 
+}
+.navbar a 
+{
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}

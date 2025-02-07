@@ -1,0 +1,25 @@
+input 
+{
+    width: 250px;
+    height: auto;
+    margin: 15px;
+    padding: 8px;
+}
+
+button
+{
+    width: 100px;
+    height: auto;
+    margin: 15px;
+    padding: 8px;
+    border: 0;
+    background-color: black;
+    color: white;
+}
+.meme img 
+{
+    width: 45%;
+    height: auto;
+    margin: auto;
+
+}
