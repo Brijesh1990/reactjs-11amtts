@@ -1,7 +1,27 @@
-import React from 'react'
-import { Container } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import React,{useState} from 'react'
+import { Container,Alert } from 'react-bootstrap'
+import { Link,useNavigate } from 'react-router-dom'
+import { useUserAuth } from '../../context/UserAuthContext';
+
 export default function Login() {
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const { logIn, googleSignIn } = useUserAuth();
+  const navigate = useNavigate();
+  
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+  setError("");
+  try {
+  await logIn(email, password);
+  navigate("/admin-login/dashboard");
+  } catch (err) {
+  setError(err.message);
+  }
+};
+
   return (
     <div>
          {/* content */}
@@ -11,15 +31,17 @@ export default function Login() {
       <div className='col-md-8'>
       <h1 className='fs-4'>Admin Login</h1>
       <hr />
-      <form>
+      <h6> {error && <Alert variant="danger">{error}</Alert>}</h6>
+
+      <form onSubmit={handleSubmit}>
       <div className="input-group mb-3">
       <span className="input-group-text bi bi-inbox" id="basic-addon1"></span>
-      <input type="text"  className="form-control" placeholder="Enter email *" aria-label="Username" aria-describedby="basic-addon1" />
+      <input type="text"  className="form-control" placeholder="Enter email *" aria-label="Username" aria-describedby="basic-addon1"   onChange={(e) => setEmail(e.target.value)} />
       </div>
 
       <div className="input-group mb-3">
       <span className="input-group-text bi bi-lock" id="basic-addon1"></span>
-      <input type="text"  className="form-control" placeholder="Enter Password *" aria-label="Username" aria-describedby="basic-addon1" />
+      <input type="text"  className="form-control" placeholder="Enter Password *" aria-label="Username" aria-describedby="basic-addon1"  onChange={(e) => setPassword(e.target.value)} />
       </div>
 
       <div className="input-group mb-3">

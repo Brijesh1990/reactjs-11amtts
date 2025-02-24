@@ -1,0 +1,36 @@
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+overflow-x: hidden;    
+}
+
+.container 
+{
+width: auto;
+height: auto;    
+}
+ul 
+{
+ width: auto;
+ height: auto;   
+}
+li 
+{
+padding: 10px 5px;
+display: flex;
+justify-content: space-between;
+font-size: 17px;    
+}
+@media only screen and (max-width:580px)
+{
+.content 
+{
+width: 90% !important;
+height: auto !important;    
+margin: auto !important;
+margin-top: 15% !important;
+}
+}

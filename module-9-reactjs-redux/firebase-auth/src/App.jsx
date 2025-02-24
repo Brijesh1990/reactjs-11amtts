@@ -4,24 +4,27 @@ import { Provider } from 'react-redux'
 import store from './store'
 import Home from './components/Home'
 import About from './components/About'
-import Register from './components/Register'
+import Signup from './components/Register'
 import Login from './components/Login'
 import NotFound from './components/NotFound'
+import ProtectedRoute from "./components/ProtectedRoute";
+import { UserAuthContextProvider } from "./context/UserAuthContext";
 export default function App() {
   return (
-       <Provider store={store}>
 
+    <UserAuthContextProvider>
+       <Provider store={store}>
          <Router>
           <Routes>
-            <Route path='/' element=<Home />></Route>
+            <Route path='/' element=<ProtectedRoute> <Home /> </ProtectedRoute>  />
             <Route path='/about' element=<About />></Route>
-            <Route path='/register' element=<Register />></Route>
+            <Route path='/register' element=<Signup />></Route>
             <Route path='/login' element=<Login />></Route>
             <Route path='/not-found' element=<NotFound />></Route>
             
           </Routes>
          </Router>
-
        </Provider>
+       </UserAuthContextProvider>
   )
 }

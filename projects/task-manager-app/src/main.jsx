@@ -15,19 +15,26 @@ import Dashboard from './components/admin/Dashboard'
 import ManageContact from './components/admin/ManageContact'
 import DeleteContact from './components/admin/DeleteData'
 import './admin.css'
+import ProtectedRoute from "./components/admin/ProtectedRoute";
+import { UserAuthContextProvider } from './context/UserAuthContext'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+
+<UserAuthContextProvider>
     <Router>
+    
       <Routes>
         <Route path="/" element={<Layout />} />
         <Route path='/delete-data/:id' element={<DeleteData />} />
         <Route path='/edit-data/:id' element={<EditData />} />
         <Route path='/contact-us' element={<ContactApp />} />
         <Route path='/admin-login' element={<AdminLayout />} />
-        <Route path='/admin-login/dashboard' element={<Dashboard />} />
+        <Route path='/admin-login/dashboard' element={<ProtectedRoute><Dashboard /> </ProtectedRoute>} />
         <Route path='/admin-login/manage-contact' element={<ManageContact />} />
         <Route path='/admin-login/delete-contact/:id' element={<DeleteContact />} />
       </Routes>
     </Router>
+    </UserAuthContextProvider>
   </StrictMode>,
 )
